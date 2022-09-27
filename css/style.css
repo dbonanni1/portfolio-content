@@ -36,6 +36,13 @@ h1{
     padding:25px;
 }
 
+figcaption{
+    font-family:Garamond,'Roboto';
+    font-size:18px;
+    color:black;
+    padding:20px;
+}
+
 img{
     margin:15px;
     width:450px;
