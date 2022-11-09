@@ -14,7 +14,7 @@ body{
 .skip a:focus{
     position:absolute;
     top:0;
-    color:dark red;
+    color:darkred;
 }
 
 nav{
