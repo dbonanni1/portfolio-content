@@ -57,6 +57,7 @@ main{
 
 aside{
     background-color: lightcoral;
+    color: black;
     padding: 50px;
     grid-row: 3/4
     /*grid-row: 3/4;*/
@@ -69,7 +70,7 @@ footer{
 
 i{
     font-weight: bold;
-    color: white;
+    color: black;
     background-color: lightcoral;
     padding: 30px;
 }
@@ -124,10 +125,13 @@ p{
     justify-content: center;
 }
 
+#aside1>p, #aside2>p, #aside3>p{
+    color: black;
+}
 h1{
     font-family:Garamond,'Roboto';
     font-size:24px;
-    color:white;
+    color:black;
     padding:25px;
     text-align: center;
 }
