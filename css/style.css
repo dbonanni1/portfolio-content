@@ -31,6 +31,10 @@ nav a{
     background-color: brown;
 }
 
+.current{
+    color: black;
+    background-color: lightcoral;
+}
 nav a:hover, nav a:active{
     color:white;
     background-color: lightcoral;
