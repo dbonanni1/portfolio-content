@@ -8,13 +8,13 @@ body{
     position:absolute;
     top:-40px;
     z-index:1;
-    color:aqua;
+    color:brown;
 }
 
 .skip a:focus{
     position:absolute;
     top:0;
-    color:brown;
+    color:white;
 }
 
 nav{
