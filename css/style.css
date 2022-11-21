@@ -59,7 +59,30 @@ main{
     background-size: cover;
 }
 
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    background-color: brown;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
 
+label{
+    text-align: center;
+    text-justify: center;
+    padding: 10px;
+}
+
+button{
+    background-color: lightcoral;
+    height: 50px;
+    width: 50px;
+    align-content: center;
+}
 aside{
     background-color: lightcoral;
     color: black;
@@ -195,6 +218,9 @@ section{
         grid-row: 2/3;
     }
 
+    label{
+        padding: 15px;
+    }
     main{
         grid-row: 3/4;
     }
@@ -298,6 +324,15 @@ section{
     footer{
         display: grid;
         grid-template-columns: 300px 1fr;
+    }
+
+    form{
+        display: flex;
+        flex-direction: start;
+        flex-wrap: wrap;
+        background-color: brown;
+        padding: 20px;
+        color: white;
     }
     
   }
