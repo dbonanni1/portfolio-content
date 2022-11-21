@@ -21,6 +21,7 @@ nav{
     /*background-image: url("../images/orange_building_courtyard.jpeg")*/
     color:black;
     padding:15px;
+    text-align: center;
 }
 
 nav a{
@@ -33,6 +34,7 @@ nav a{
 .current{
     color: black;
     background-color: lightcoral;
+    text-decoration-style: dashed;
 }
 nav a:hover, nav a:active{
     color:white;
@@ -69,6 +71,12 @@ aside{
 footer{
     background-color: brown;
     grid-row:4/5;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 i{
@@ -177,9 +185,44 @@ section{
     padding:10px;
 }*/
 
+@media all and (min-width: 700px){/*tablet*/
 
+    header{
+        grid-row: 1/2;
+    }
 
-@media all and (min-width: 700px){
+    aside{
+        grid-row: 2/3;
+    }
+
+    main{
+        grid-row: 3/4;
+    }
+
+    footer{
+        grid-row: 4/5;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 25px 1fr;
+    }
+
+    nav{
+        text-align: left;
+    }
+
+    section{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-items: center;
+        align-items: center;
+    
+    }
+}
+
+@media all and (min-width: 1000px){/*desktop*/
     body{
         display:grid;
         grid-template-columns:1fr 1fr 1fr;
@@ -193,6 +236,13 @@ section{
         grid-row:1/2;
         grid-column: 1/4;
     }
+
+    nav a{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+  
     
     main{
         background-image: url("../images/modern_red_stairway_sky.jpeg");
@@ -243,6 +293,11 @@ section{
         background-color: brown;
         grid-row:3/4;
         grid-column: 1/4;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 300px 1fr;
     }
     
   }
