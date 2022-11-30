@@ -33,12 +33,12 @@ nav a{
 
 .current{
     color: black;
-    background-color: lightcoral;
+    background-color: cornflowerblue;
     text-decoration-style: dashed;
 }
 nav a:hover, nav a:active{
     color:white;
-    background-color: lightcoral;
+    background-color: cornflowerblue;
 }
 
 body{
@@ -78,13 +78,13 @@ label{
 }
 
 button{
-    background-color: lightcoral;
+    background-color: cornflowerblue;
     height: 50px;
     width: 50px;
 
 }
 aside{
-    background-color: lightcoral;
+    background-color: cornflowerblue;
     color: black;
     padding: 50px;
     grid-row: 3/4;
@@ -105,7 +105,7 @@ footer{
 i{
     font-weight: bold;
     color: black;
-    background-color: lightcoral;
+    background-color: cornflowerblue;
     padding: 30px;
 }
 
@@ -127,7 +127,7 @@ img{
 
 img:hover{
     background:white;
-    border:5px solid lightcoral;
+    border:5px solid cornflowerblue;
     margin:15px auto;
     padding:10px;
     width: 330px;
@@ -141,7 +141,7 @@ img:hover{
     50%{opacity: 0.5;}
     100%{opacity: 1;}
     from {border:5px solid brown;}
-    to {border: 5px solid lightcoral}
+    to {border: 5px solid cornflowerblue}
 }
 
 p{
@@ -279,7 +279,7 @@ section{
 
     h1{
         text-align: left;
-        background-color: lightcoral;
+        background-color: cornflowerblue;
     }
     img{
         margin: 15px 50px;
