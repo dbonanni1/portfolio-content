@@ -8,7 +8,7 @@ body{
     position:absolute;
     top:-40px;
     z-index:1;
-    color: burlywood;
+    color: lightseagreen;
 }
 
 .skip a:focus{
@@ -28,17 +28,17 @@ nav a{
     font-family:Garamond, 'Times New Roman';
     font-size:32px;
     color:white;
-    background-color: burlywood;
+    background-color: lightseagreen;
 }
 
 .current{
     color: black;
-    background-color: cornflowerblue;
+    background-color: tan;
     text-decoration-style: dashed;
 }
 nav a:hover, nav a:active{
     color:white;
-    background-color: cornflowerblue;
+    background-color: tan;
 }
 
 body{
@@ -49,7 +49,7 @@ body{
 }
 
 header{
-    background-color: burlywood;
+    background-color: lightseagreen;
     grid-row: 1/2;
 }
 
@@ -64,7 +64,7 @@ form{
     grid-template-columns: 1fr;
     justify-content: center;
     align-content: center;
-    background-color: burlywood;
+    background-color: lightseagreen;
     padding: 15px;
     color: white;
     font-weight: bold;
@@ -78,13 +78,13 @@ label{
 }
 
 button{
-    background-color: cornflowerblue;
+    background-color: tan;
     height: 50px;
     width: 50px;
 
 }
 aside{
-    background-color: cornflowerblue;
+    background-color: tan;
     color: black;
     padding: 50px;
     grid-row: 3/4;
@@ -92,7 +92,7 @@ aside{
 }
 
 footer{
-    background-color: burlywood;
+    background-color: lightseagreen;
     grid-row:4/5;
 }
 
@@ -105,7 +105,7 @@ footer{
 i{
     font-weight: bold;
     color: black;
-    background-color: cornflowerblue;
+    background-color: tan;
     padding: 30px;
 }
 
@@ -113,7 +113,7 @@ img{
     margin:15px;
     width:330px;
     height: 200px;
-    border:5px solid burlywood;
+    border:5px solid lightseagreen;
     padding:10px;
     margin: 15px auto;
 }
@@ -127,7 +127,7 @@ img{
 
 img:hover{
     background:white;
-    border:5px solid cornflowerblue;
+    border:5px solid tan;
     margin:15px auto;
     padding:10px;
     width: 330px;
@@ -140,8 +140,8 @@ img:hover{
 @keyframes color-change{
     50%{opacity: 0.5;}
     100%{opacity: 1;}
-    from {border:5px solid burlywood;}
-    to {border: 5px solid cornflowerblue}
+    from {border:5px solid lightseagreen;}
+    to {border: 5px solid tan}
 }
 
 p{
@@ -152,7 +152,7 @@ p{
 
 #p1bleh, #p2, #p3{
     color: white;
-    background-color: burlywood;
+    background-color: lightseagreen;
     font-weight: bold;
     justify-content: center;
 }
@@ -173,7 +173,7 @@ figcaption{
     font-family:Garamond,'Roboto';
     font-size:18px;
     color:white;
-    background-color:burlywood;
+    background-color:lightseagreen;
     padding:10px;
     width: 330px;
     height: 75px;
@@ -279,7 +279,7 @@ section{
 
     h1{
         text-align: left;
-        background-color: cornflowerblue;
+        background-color: tan;
     }
     img{
         margin: 15px 50px;
@@ -329,7 +329,7 @@ section{
         display: flex;
         flex-direction: start;
         flex-wrap: wrap;
-        background-color: burlywood;
+        background-color: lightseagreen;
         padding: 20px;
         color: white;
     }
