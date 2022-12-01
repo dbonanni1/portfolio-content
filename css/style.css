@@ -8,7 +8,7 @@ body{
     position:absolute;
     top:-40px;
     z-index:1;
-    color:brown;
+    color: burlywood;
 }
 
 .skip a:focus{
@@ -28,7 +28,7 @@ nav a{
     font-family:Garamond, 'Times New Roman';
     font-size:32px;
     color:white;
-    background-color: brown;
+    background-color: burlywood;
 }
 
 .current{
@@ -49,7 +49,7 @@ body{
 }
 
 header{
-    background-color: brown;
+    background-color: burlywood;
     grid-row: 1/2;
 }
 
@@ -64,7 +64,7 @@ form{
     grid-template-columns: 1fr;
     justify-content: center;
     align-content: center;
-    background-color: brown;
+    background-color: burlywood;
     padding: 15px;
     color: white;
     font-weight: bold;
@@ -92,7 +92,7 @@ aside{
 }
 
 footer{
-    background-color: brown;
+    background-color: burlywood;
     grid-row:4/5;
 }
 
@@ -113,7 +113,7 @@ img{
     margin:15px;
     width:330px;
     height: 200px;
-    border:5px solid brown;
+    border:5px solid burlywood;
     padding:10px;
     margin: 15px auto;
 }
@@ -140,7 +140,7 @@ img:hover{
 @keyframes color-change{
     50%{opacity: 0.5;}
     100%{opacity: 1;}
-    from {border:5px solid brown;}
+    from {border:5px solid burlywood;}
     to {border: 5px solid cornflowerblue}
 }
 
@@ -152,7 +152,7 @@ p{
 
 #p1bleh, #p2, #p3{
     color: white;
-    background-color: brown;
+    background-color: burlywood;
     font-weight: bold;
     justify-content: center;
 }
@@ -173,7 +173,7 @@ figcaption{
     font-family:Garamond,'Roboto';
     font-size:18px;
     color:white;
-    background-color:brown;
+    background-color:burlywood;
     padding:10px;
     width: 330px;
     height: 75px;
@@ -329,7 +329,7 @@ section{
         display: flex;
         flex-direction: start;
         flex-wrap: wrap;
-        background-color: brown;
+        background-color: burlywood;
         padding: 20px;
         color: white;
     }
