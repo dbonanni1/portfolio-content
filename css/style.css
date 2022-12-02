@@ -207,7 +207,7 @@ section{
     padding:10px;
 }*/
 
-@media all and (min-width: 700px){/*tablet*/
+@media all and (min-width: 600px){/*tablet*/
 
     /*header{
         grid-row: 1/2;
@@ -247,7 +247,7 @@ section{
     }
 }
 
-@media all and (min-width: 1000px){/*desktop*/
+@media all and (min-width: 992px){/*desktop*/
     body{
         display:grid;
         grid-template-columns:1fr 1fr 1fr;
